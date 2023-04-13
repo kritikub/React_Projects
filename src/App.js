@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Employee from './components/Employee';
+import EmployeeEnhance from './components/EmployeeEnhance';
+import EmployeeEnhanceV1 from './components/EmployeeEnhanceV1';
+import { Jiten } from './components/JIten';
+import Papu from './components/Papu';
+import Shruti from './components/Shruti';
+import Sushant from './components/Sushant';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <EmployeeEnhanceV1></EmployeeEnhanceV1>
     </div>
   );
 }
